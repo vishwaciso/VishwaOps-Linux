@@ -71,3 +71,25 @@ cd -        # Switch to previous directory
 pushd <dir> # Push directory onto stack
 popd        # Return to last directory from stack
 dirs        # Show directory stack
+
+📜 History Expansion
+
+history   # Show history
+!n        # Run command number n
+!$        # Last argument of previous command
+!!        # Repeat last command
+
+
+
+📤 Output & Redirection
+
+command > file      # Redirect output (overwrite)
+command >> file     # Redirect output (append)
+command 2> file     # Redirect errors
+command &> file     # Redirect stdout + stderr
+command1 | command2 # Pipe output into another command
+
+
+📊 Visual Keyboard Map (Quick View)
+<p align="center"> <img src="https://user-images.githubusercontent.com/74750414/197353706-0e8a853d-07c1-4d43-8a17-ff1c6a97f0bb.png" width="600" alt="Linux Keyboard Shortcuts"/> </p>
+<!-- Footer --> <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=100:2c5364,0:0f2027&height=120&section=footer"/> </p> ``
